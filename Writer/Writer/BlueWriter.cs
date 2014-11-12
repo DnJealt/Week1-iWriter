@@ -5,7 +5,12 @@ using System.Text;
 
 namespace Writer
 {
-    class BlueWriter
+    class BlueWriter : IWriter
     {
+
+        public void write()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

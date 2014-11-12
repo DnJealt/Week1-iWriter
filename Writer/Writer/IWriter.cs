@@ -7,6 +7,6 @@ namespace Writer
 {
     interface IWriter
     {
-        void write();
+        void write(string tekst);
     }
 }
