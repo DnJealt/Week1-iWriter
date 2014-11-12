@@ -27,12 +27,12 @@ namespace Writer
                 Console.ForegroundColor = BlazeItFaggot[listIndex];
                 Console.Write(tekst[i]);
                 listIndex++;
-                if (listIndex > 3)
+                if (listIndex > 2)
                 {
                     listIndex = 0;
                 }
             }
-                
+            Console.WriteLine();                
         }
     }
 }

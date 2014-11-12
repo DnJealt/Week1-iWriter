@@ -9,7 +9,7 @@ namespace Writer
     {        
         public void write(string tekst)
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(tekst);
             Console.ResetColor();
         }
