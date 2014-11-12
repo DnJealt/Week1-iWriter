@@ -7,9 +7,8 @@ namespace Writer
 {
     class WriterFactory
     {
-        List<IWriter> Writers = new List<IWriter>();
 
-        public IWriter WriterFactory(string writer)
+        public IWriter Select(string writer)
         {
             switch (writer)
             {
@@ -21,6 +20,8 @@ namespace Writer
                     return new _420Writer();
                 case ("rainbow"):
                     return new RainbowWriter();
+                default:
+                    return new BlueWriter();
             }
         }
     }
