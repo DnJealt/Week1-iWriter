@@ -5,7 +5,10 @@ using System.Text;
 
 namespace Writer
 {
-    class RedWriter
+    class RedWriter : IWriter
     {
+
+
+
     }
 }
