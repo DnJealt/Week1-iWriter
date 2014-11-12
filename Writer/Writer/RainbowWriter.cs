@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Writer
 {
-    class GreenWriter
+    class RainbowWriter
     {
     }
 }
