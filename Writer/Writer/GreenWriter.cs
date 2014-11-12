@@ -5,10 +5,7 @@ using System.Text;
 
 namespace Writer
 {
-    class Program
+    class GreenWriter
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
