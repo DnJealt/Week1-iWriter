@@ -8,9 +8,11 @@ namespace Writer
     class BlueWriter : IWriter
     {
 
-        public void write()
+        public void write(string tekst)
         {
-            throw new NotImplementedException();
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine(tekst);
+            Console.ResetColor();
         }
     }
 }
